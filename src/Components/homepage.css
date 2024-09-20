@@ -1,0 +1,26 @@
+:root {
+    --home-page-background-color: #f8f9fa; 
+    --home-page-block-background-color: #007bff;
+  }
+  
+  .homepage .main-container {
+    padding: 20px;
+    background-color: var(--home-page-background-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .homepage .main-container .block {
+    width: 90vw;
+    height: 35vh;
+    background-color: var(--home-page-block-background-color);
+    margin: auto;
+    border-radius: 13px;
+    transition: transform 0.15s ease-in-out;
+  }
+  
+  .homepage .main-container .block:hover {
+    transform: scale(1.015);
+  }
+  
